@@ -1,3 +1,3 @@
-module gods
+module sds
 
 go 1.21
