@@ -69,7 +69,7 @@ func (s *CountMinSketch) Merge(other *CountMinSketch) error {
 func (s *CountMinSketch) Update(key []byte, count uint64) uint64 {
 	var min uint64 = 0
 	for r, c := range s.locations(key) {
-		s.count[r][c] += count
+		s.count[r][c] += count // NOTE: kind of similar to bloom filter.
 		if r == 0 || s.count[r][c] < min {
 			min = s.count[r][c]
 		}
