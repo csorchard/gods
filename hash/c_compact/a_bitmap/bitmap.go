@@ -1,4 +1,4 @@
-package bitmap
+package a_bitmap
 
 import (
 	"bytes"

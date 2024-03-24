@@ -1,4 +1,4 @@
-package bloomfilter
+package b_bloomfilter
 
 import "sync"
 
