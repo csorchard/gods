@@ -80,3 +80,4 @@ Built-in map in golang uses the chain address method.
 Details
 - https://github.com/ClickHouse/ClickHouse/pull/5417
 - https://www.researchgate.net/publication/339879042_SAHA_A_String_Adaptive_Hash_Table_for_Analytical_Databases
+- https://www.youtube.com/watch?v=J0nbgXIarhc
